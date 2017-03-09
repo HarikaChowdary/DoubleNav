@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+    android:padding="5dip">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:text="Select From Menu"
+
+                android:id="@+id/textView1"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+
+                android:paddingTop="@dimen/design_tab_scrollable_min_width" />
+
+            <Button
+
+                android:layout_height="wrap_content"
+
+                android:layout_width="fill_parent"
+
+                android:text="- None Selected -"
+
+                android:id="@+id/select_colours"
+
+                android:layout_below="@+id/textView1"
+
+                android:padding="5dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T-Shirt"
+                android:visibility="visible"
+                android:id="@+id/Tee"
+                android:layout_below="@+id/select_colours"
+
+                android:padding="@dimen/abc_dialog_padding_top_material" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trouser"
+                android:visibility="visible"
+                android:id="@+id/Trouser"
+                android:layout_below="@+id/Tee"
+                android:padding="@dimen/abc_dialog_padding_top_material"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kurti"
+                android:visibility="visible"
+                android:id="@+id/Kurti"
+                android:layout_below="@+id/Trouser"
+                android:padding="@dimen/abc_dialog_padding_top_material"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saree"
+                android:visibility="visible"
+                android:id="@+id/Saree"
+                android:layout_below="@+id/Kurti"
+                android:padding="@dimen/abc_dialog_padding_top_material"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salwar"
+                android:visibility="visible"
+                android:id="@+id/Salwar"
+                android:layout_below="@+id/Saree"
+                android:padding="@dimen/abc_dialog_padding_top_material"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:text="Sherwani"
+                android:id="@+id/Sherwani"
+                android:layout_below="@+id/Salwar"
+                android:padding="@dimen/abc_dialog_padding_top_material"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/editText1"
+                android:layout_below="@+id/Tee"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="visible"
+                android:ems="3"
+                android:id="@+id/editText2"
+                android:layout_below="@+id/Trouser"
+
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="visible"
+                android:ems="3"
+                android:id="@+id/editText3"
+                android:layout_below="@+id/Kurti"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="visible"
+                android:ems="3"
+                android:id="@+id/editText4"
+                android:layout_below="@+id/Saree"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="visible"
+                android:ems="3"
+                android:id="@+id/editText5"
+                android:layout_below="@+id/Salwar"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="visible"
+                android:ems="3"
+                android:id="@+id/editText6"
+                android:layout_below="@+id/Sherwani"
+
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="4"
+                android:id="@+id/editText"
+                android:layout_below="@+id/costbtn"
+                android:visibility="visible"
+
+                android:background="@drawable/rounded_edittext"
+                android:padding="10dip"
+
+                />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COST"
+                android:id="@+id/costbtn"
+                android:visibility="visible"
+
+
+                android:layout_below="@id/Sherwani"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
