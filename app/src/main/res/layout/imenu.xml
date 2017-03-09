@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+    android:padding="5dip">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:text="Select From Menu"
+
+                android:id="@+id/textView1"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+
+                android:paddingTop="@dimen/design_tab_scrollable_min_width" />
+
+            <Button
+
+                android:layout_height="wrap_content"
+
+                android:layout_width="fill_parent"
+
+                android:text="- None Selected -"
+
+                android:id="@+id/select_colours"
+
+                android:layout_below="@+id/textView1"
+
+                android:padding="5dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a"
+                android:visibility="gone"
+                android:id="@+id/txt1"
+                android:layout_below="@+id/select_colours"
+
+                android:padding="@dimen/abc_dialog_padding_top_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b"
+                android:visibility="gone"
+                android:id="@+id/txt2"
+                android:layout_below="@+id/txt1"
+                android:padding="@dimen/abc_dialog_padding_top_material"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c"
+                android:visibility="gone"
+                android:id="@+id/txt3"
+                android:layout_below="@+id/txt2"
+                android:padding="@dimen/abc_dialog_padding_top_material"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d"
+                android:visibility="gone"
+                android:id="@+id/txt4"
+                android:layout_below="@+id/txt3"
+                android:padding="@dimen/abc_dialog_padding_top_material"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e"
+                android:visibility="gone"
+                android:id="@+id/txt5"
+                android:layout_below="@+id/txt4"
+                android:padding="@dimen/abc_dialog_padding_top_material"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="f"
+                android:id="@+id/txt6"
+                android:layout_below="@+id/txt5"
+                android:padding="@dimen/abc_dialog_padding_top_material"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/editText1"
+                android:layout_below="@+id/select_colours"
+
+                android:layout_alignEnd="@+id/select_colours"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="gone"
+                android:ems="3"
+                android:id="@+id/editText2"
+                android:layout_below="@+id/editText1"
+
+                android:layout_alignEnd="@+id/editText1"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="gone"
+                android:ems="3"
+                android:id="@+id/editText3"
+                android:layout_below="@+id/txt2"
+                android:layout_alignEnd="@+id/editText2"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="gone"
+                android:ems="3"
+                android:id="@+id/editText4"
+                android:layout_alignTop="@+id/txt4"
+                android:layout_alignEnd="@+id/editText3"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="gone"
+                android:ems="3"
+                android:id="@+id/editText5"
+                android:layout_alignTop="@+id/txt5"
+                android:layout_alignEnd="@+id/editText4"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="gone"
+                android:ems="3"
+                android:id="@+id/editText6"
+                android:layout_below="@+id/txt6"
+                android:layout_alignTop="@+id/txt6"
+                android:layout_alignEnd="@+id/editText5"
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="4"
+                android:id="@+id/editText"
+                android:layout_below="@+id/costbtn"
+                android:visibility="gone"
+                android:layout_alignTop="@+id/costbtn"
+                android:background="@drawable/rounded_edittext"
+                android:padding="10dip"
+                android:layout_alignEnd="@+id/editText6"
+                />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COST"
+                android:id="@+id/costbtn"
+                android:visibility="gone"
+
+
+                android:layout_below="@id/txt6"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
