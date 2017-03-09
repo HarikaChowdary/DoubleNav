@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.harikachowdary.g_me.angryfactsclass"
+    android:nestedScrollingEnabled="true"
+    android:background="@drawable/angryfacts">
+
+
+
+
+
+
+
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView3"
+            >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#128eb7">
+
+
+<ViewFlipper
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewFlipper3"
+    android:layout_alignParentTop="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="
+
+     	The “fight or flight” system engages as we decide how best to deal with our anger.
+
+"
+
+
+            android:id="@+id/textView15"
+            android:gravity="center"
+            android:textColor="#fcfcfc"
+            android:layout_above="@+id/links1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:textSize="@dimen/abc_dropdownitem_icon_width"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" 	At first, knowing how best to act is difficult, but in time the emotion of anger can drive us to create something innovated to solve a problem.
+
+
+     "
+        android:id="@+id/textView22"
+        android:gravity="center"
+        android:textColor="#fcfcfc"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="	In an argument, one person can defeat the mounting anger with a joke.
+
+
+     "
+        android:id="@+id/textView23"
+        android:gravity="center"
+        android:textColor="#fcfcfc"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="	Uncontrolled anger and angry outbursts are linked to stroke and heart attack.
+
+
+
+"
+        android:id="@+id/textView24"
+        android:gravity="center"
+        android:textColor="#fcfcfc"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="	Anger teaches us about our ability to cope
+
+
+"
+        android:id="@+id/textView25"
+        android:gravity="center"
+        android:textColor="#fcfcfc"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"/>
+
+</ViewFlipper>
+
+</LinearLayout>
+
+
+        </ScrollView>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MORE FACTS"
+                android:id="@+id/links3"
+                android:onClick="browserfacts1"
+                android:background="#030303"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#fefbfb" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MORE FACTS"
+                android:id="@+id/links1"
+                android:onClick="browserfacts2"
+                android:background="#040404"
+                android:layout_alignTop="@+id/links3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#fefcfc" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/ted"
+                android:onClick="ted"
+                android:src="@drawable/ted" />
+
+
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/motyt"
+        android:src="@drawable/motyt"
+        android:onClick="motyt"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/mot"
+        android:src="@drawable/mot"
+        android:onClick="mot"
+        android:layout_below="@+id/motyt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Check out talks"
+        android:id="@+id/textView44"
+        android:layout_above="@+id/motyt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Get motivated"
+        android:id="@+id/textView45"
+        android:layout_alignRight="@+id/motyt"
+        android:layout_alignEnd="@+id/motyt"
+        android:layout_alignTop="@+id/mot"
+        android:layout_alignLeft="@+id/motyt"
+        android:layout_alignStart="@+id/motyt"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Motivational facts"
+        android:id="@+id/textView46"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#D1B5EF" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

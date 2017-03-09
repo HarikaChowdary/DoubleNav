@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.harikachowdary.g_me.HIntrstFacts"
+    tools:showIn="@layout/activity_hintrst_facts"
+    android:background="@drawable/angryfacts">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FUN FACTS OF BEING HAPPY"
+        android:id="@+id/ff"
+        android:onClick="ff"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCIENTIFIC FACTS OF BEING HAPPY"
+        android:id="@+id/sf"
+        android:onClick="sf"
+        android:layout_below="@+id/ff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORLD'S HAPPIEST FACTS"
+        android:id="@+id/wf"
+        android:onClick="wf"
+        android:layout_below="@+id/sf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ENHANCE YOUR MOOD"
+        android:id="@+id/textView11"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff" />
+
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:id="@+id/FlipperHf"
+        android:layout_marginTop="72dp" >
+
+        <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/hf1" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="
+            *Most people are about as happy as they make up their mind to be
+
+            *The foolish man seeks happiness at a distance,a wise man grows it under his feet
+
+            *The amount of happiness that you have depends on the amount of freedom you give to your heart
+
+            "
+            android:id="@+id/textView13"
+            android:layout_below="@+id/wf"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="223dp"
+            android:layout_marginEnd="223dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="
+            *The purpose of life is to be happy
+
+            *Remembber that happiness is the way of travel not the destination
+
+            "
+            android:id="@+id/textView14"
+            android:layout_below="@+id/wf"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="223dp"
+            android:layout_marginEnd="223dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView13"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="68dp"
+            android:src="@drawable/hf2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="          *Enduring happiness is possible          *you need to get serious about being happy          *Happiness breeds more happiness          "
+            android:id="@+id/textView12"
+            android:layout_below="@+id/wf"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="223dp"
+            android:layout_marginEnd="223dp"
+            android:background="#f708f7" />
+    </ViewFlipper>
+
+</RelativeLayout>

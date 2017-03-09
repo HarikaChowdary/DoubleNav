@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:text="FIVE GOLDEN RULES"
+        android:id="@+id/textView38"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+*Set goals that motivates you
+        "
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+*Set SMART Goals
+        "
+        android:gravity="center"
+        android:id="@+id/textView39"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Specific"
+        android:gravity="center"
+        android:id="@+id/textView40"
+        android:layout_gravity="right"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Measurable"
+        android:gravity="center"
+        android:id="@+id/textView401"
+        android:layout_gravity="right"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Attainable"
+        android:gravity="center"
+        android:id="@+id/textView402"
+        android:layout_gravity="right"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Relevant"
+        android:gravity="center"
+        android:id="@+id/textView403"
+        android:layout_gravity="right"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Time Bound"
+        android:gravity="center"
+        android:id="@+id/textView404"
+        android:layout_gravity="right"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+*Set Specific Goals"
+        android:gravity="center"
+        android:id="@+id/textView41"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+*Set Measurable Goals"
+        android:gravity="center"
+        android:id="@+id/textView42"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+*Set Attainable Goals"
+        android:gravity="center"
+        android:id="@+id/textView43"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+        *State each goal as a positive statement"
+        android:gravity="center"
+        android:id="@+id/textView440"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+        *Be precise: "
+        android:id="@+id/textView441"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+        *Keep operational goals small"
+        android:id="@+id/textView442"
+        android:textColor="#D1B5EF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+        *Set performance goals, not outcome goals"
+        android:id="@+id/textView443"
+        android:textColor="#D1B5EF" />
+
+
+
+</LinearLayout>
